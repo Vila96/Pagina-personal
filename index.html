@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewpoert" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="Imagenes/gorro chef.jpg" alt="gorro-chef" class="logo">
+<div class="cabeza">
+    <h1>Recetas de la casa</h1>
+    <h2>Todo esta buenísimo</h2>
+</div>
+<div>
+<nav>
+    <a href="#galletas" tabindex="1">Recetas Galletas</a>
+    <a href="#tortilla" tabindex="2">Receta Tortilla</a>
+    <a href="#newslettertitle" tabindex="3">Subscribete a la newsletter</a>
+</nav>
+</div>
+<div class="recetas">
+    <div id="galletas" tabindex="4">
+        <h1>Galletas clásicas</h1>
+        <img src="Imagenes/galletas.jpg" alt="galletas">
+        <h2>Ingredientes</h2>
+        <ol class="ingredientes">
+            <li><span>200 gramos mantequilla pomada (blandita a temperatura ambiente)</span></li>
+            <li><span>120 gramos azúcar</span></li>
+            <li><span>280 gramos de harina de trigo</span></li>
+            <li><span>1 cucharadita esencia de vainilla</span></li>
+        </ol>
+        <h2>Preparación</h2>
+        <ol>
+            <li><span>En un bol comenzamos mezclando la mantequilla con el azúcar. Recordad que la mantequilla debe de estar a temperatura ambiente para poder trabajar bien con ella. Mezclamos muy bien.</span></li>
+            <li><span>Una vez mezclado, agregamos la cucharadita de esencia de vainilla.</span></li>
+            <li><span>Continuamos con la harina tamizada. Pasamos la harina por un colador antes de incorporarla al bol. Mezclamos muy bien.</span></li>
+            <li><span>Ahora es momento de darles forma. Lo más fácil es hacer un rollito como veis a continuación con la ayuda de papel film y meterlo en la nevera durante 1 hora más o menos. A partir de ahí, lo que haremos sera “cortar rodajas” de 1 cm más o menos y hornearlas.</span></li>
+            <li><span>Las ponemos en un bandeja de horno cortadas y las horneamos a 180º durante unos 11-12 minutos. En el momento que veamos que se empiezan a dorar los bordes las sacamos. Si veis que están blanditas no las dejéis más porque yo cometí una vez ese error, cuando se enfrían se endurecen. Así que no os preocupéis si tocáis alguna y la veis blanda.</span></li>
+        </ol>
+        
+    </div>
+    <div id="tortilla" tabindex="5">
+        <h1>Tortilla de patatas</h1>
+        <img src="Imagenes/tortilla.jpg" alt="tortilla de patatas española">
+        <h2>Ingedirentes</h2>
+        <ol class="ingredientes">
+            <li><span>1 kilo de patatas (Unas 5-6 dependiendo del tamaño)</span></li>
+            <li><span>6 huevos medianos si la queremos cuajada y 7-8 si la queremos jugosa.</span></li>
+            <li><span>2 cebollas grandes</span></li>
+            <li><span>Sal</span></li>
+            <li><span>Aceite de oliva virgen extra</span></li>
+        </ol>
+        <h2>Preparación</h2>
+        <ol>
+            <li><span>Como he comentado antes empezamos pelando las patatas. Las lavamos y las cortamos con la ayuda del pelapatatas o de un cuchillo bien afilado y en rodajas de 2mm.</span></li>
+            <li><span>Pelamos las cebollas y las pochamos a fuego muy lento en la sartén. Una vez tengamos la cebolla pochada retiramos y reservamos. Mucha gente lo hace todo a la vez, a mi me gusta hacerlo de manera separada.</span></li>
+            <li><span>Ponemos abundante aceite en la sartén e introducimos las patatas. Aquí tenemos que freírlo a fuego muy lento evitando que se doren las patatas, digamos que se tienen que “cocer” en el aceite, por lo que lo tenemos que poner a fuego medio bajo.</span></li>
+            <li><span>Una vez hechas las patatas y las cebollas las sacamos de la sartén y las ponemos en un colador para que suelten la mayor cantidad posible de aceite.</span></li>
+            <li><span>Batimos los huevos. Una vez escurridas las mezclamos con los huevos batidos y mezclamos muy bien evitando que se cuaje por parte. En este paso rectificamos de sal.</span></li>
+            <li><span>Es hora de hacer la tortilla, ponemos una gotita de aceite en una sartén e introducimos la mezcla de huevos y patatas. Vamos tocando con la cuchara de palo por los bordes haciendo la forma de la tortilla.</span></li>
+            <li><span>Pasado 1 minutos le damos la vuelta con mucha seguridad y la ayuda de un plato mayor que la sartén donde estemos cocinando la tortilla. Volvemos a ponerla y seguimos haciendo la forma de la tortilla con la ayuda del cucharón. En 2 minutos estará lista.</span></li>
+        </ol>
+    </div>
+</div>
+
+<div class="newstitle">
+    <h1 id="newslettertitle">¡Subscribete a la newsletter para mas recetas de la casa!</h1>
+</div>
+<div class="newsletter" tabindex="6">
+    <form action="https://www.w3schools.com/action_page.php" method="GET">
+        <p class="formcontent">Para los amantes de la buena comida en casa</p>
+        <fieldset class="formcontent">
+        <legend>Tus Datos</legend>
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="EJ: Pablo" tabindex="7"><br>
+    
+        <label for="surname">Apellidos</label>
+        <input type="text" name="surname" id="surname" placeholder="EJ: Garcia Marin" tabindex="8"><br>
+    
+        <label for="age">Edad</label>
+        <input type="number" name="age" id="age" placeholder="EJ: 45" tabindex="9"><br>
+    
+        <fieldset>
+        <legend>Sexo:</legend>
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="gender" id="Hombre" value="Hombre" tabindex="10"><br>
+        <label for="Mujer">Mujer</label>
+        <input type="radio" name="gender" id="Mujer" value="Mujer" tabindex="11"><br>
+        <label for="Otro">Otro</label>
+        <input type="radio" name="gender" id="Otro" value="Otro" tabindex="12"><br>
+        <label for="Helicoptero">Helicoptero Apache</label>
+        <input type="radio" name="gender" id="Helicoptero" value="Helicoptero" tabindex="13">
+        </fieldset>
+    
+        <label for="recomendaciones">Tu opinion / Recomendaciones para la página web</label><br><br>
+        <textarea name="recomendaciones" id="recomendaciones" cols="30" rows="10" tabindex="14" placeholder="Majo ponle un poco mas de brio a la página"></textarea><br><br>
+    
+        <br><label for="about">Que tipo de comido te gusta mas?</label><br><br>
+        <textarea name="comida" id="about" cols="30" rows="10" tabindex="15" placeholder="Me gusta la fusion asiatica-española"></textarea><br><br>
+    
+        </fieldset>
+        <fieldset class="formcontent">
+        <legend>Contacto</legend>
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="email" placeholder="micorreo@email.com" tabindex="16">
+        <label for="phone">Telefono</label>
+        <input type="text" name="phone" id="phone" placeholder="650121212" pattern="[0-9]{9}" tabindex="17">
+        </fieldset>
+        
+        <input type="submit" value="Enviar" tabindex="18" class="formbutton">
+    
+        <input type="reset" value="reset" tabindex="19" class="formbutton">
+    </form>
+        
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="test">
+    <h1>Tortilla de patatas</h1>
+    <h2>Ingedirentes</h2>
+    <p></p>
+    <h2>Preparación</h2>
+    <p></p>
+</div>
+
+
+
+</body>
+</html>
